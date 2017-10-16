@@ -59,7 +59,7 @@ input::-webkit-input-placeholder {
   margin-top: 1em;
 }
 
-.btn-default {
+.btn-default, .btn{
   background-color: #312c32;
   color: #feffff;
   border-radius: 5px;
@@ -67,12 +67,19 @@ input::-webkit-input-placeholder {
   border: 2px solid #98dafc;
   color: #98dafc;
   font-size: 1.3em;
+  outline: none;
 }
 
 .btn-default:hover {
   border: 2px solid #DAAD86;
   color: #DAAD86;
   font-family: 'Lora', serif;
+  outline: none;
+}
+
+.btn-default:active, .btn:active {
+color: #98dafc;
+outline: none;
 }
 
 #results {
@@ -99,7 +106,7 @@ input::-webkit-input-placeholder {
 }
 
 .caption {
-  color: #feffff;
+  color: #98dafc;
   font-size: 2em;
 }
 
