@@ -102,3 +102,14 @@ input::-webkit-input-placeholder {
   color: #feffff;
   font-style: italic;
 }
+
+@media (max-width: 768px){
+  #head {
+    font-family: 'Lora', serif;
+    font-size: 3.0em;
+    color: #feffff;
+    margin-bottom: .7em;
+    padding-top:.7em;
+    white-space: nowrap;
+  }
+}
