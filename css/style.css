@@ -14,11 +14,12 @@ body {
   margin: 10px;
 }
 
-.container {
+.search-box .container {
   background: #312c32;
-  padding: 0 5% 5%;
+  padding: 0 3% 5%;
   border-radius: 5px;
 }
+
 
 .search-input {
   outline: none;
@@ -30,6 +31,10 @@ body {
   width: 100%;
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
+}
+
+.search-input:hover {
+  border: 2px solid #98dafc;
 }
 
 .search-input::placeholder {
@@ -109,5 +114,10 @@ input::-webkit-input-placeholder {
     margin-bottom: .7em;
     padding-top:.7em;
     white-space: nowrap;
+  }
+
+  .results-box {
+    background: #feffff;
+    margin:0;
   }
 }
