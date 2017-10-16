@@ -3,8 +3,11 @@ var url = "https://en.wikipedia.org/w/api.php?action=opensearch&format=json&sear
 
 $(document).ready(function() {
   $(".search-box").css("margin-top", ((window.innerHeight - $(".container").height()) * 0.35));
+
   function getResults() {
-$(".search-box").animate({"margin-top": 0}, 500);
+    $(".search-box").animate({
+      "margin-top": 0
+    }, 500);
     $("#results").text("");
 
     $.getJSON(url + $("#search").val() + "&origin=*", function(data) {
@@ -39,6 +42,3 @@ $(".search-box").animate({"margin-top": 0}, 500);
 
 
 });
-
-
-  // set the height of the things to the middle of the page
