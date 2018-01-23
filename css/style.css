@@ -3,8 +3,8 @@ body {
 }
 
 #head {
-  font-family: 'Lora', serif;
-  font-size: 4.0em;
+  font-family: "Lora", serif;
+  font-size: 4em;
   color: #feffff;
   margin-bottom: 1.3em;
   padding-top: 1.3em;
@@ -31,12 +31,12 @@ body {
 }
 
 .search-input:hover {
-  border: 2px solid #DAAD86;
+  border: 2px solid #daad86;
 }
 
 .search-input::placeholder {
   font-style: italic;
-  color: #312C32;
+  color: #312c32;
 }
 
 input {
@@ -49,11 +49,12 @@ input {
   margin-top: 1em;
 }
 
-.btn-default, .btn {
+.btn-default,
+.btn {
   background-color: #312c32;
   color: #feffff;
   border-radius: 5px;
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   border: 2px solid #98dafc;
   color: #98dafc;
   font-size: 1.3em;
@@ -61,13 +62,14 @@ input {
 }
 
 .btn-default:hover {
-  border: 2px solid #DAAD86;
-  color: #DAAD86;
-  font-family: 'Lora', serif;
+  border: 2px solid #daad86;
+  color: #daad86;
+  font-family: "Lora", serif;
   outline: none;
 }
 
-.btn-default:active, .btn:active {
+.btn-default:active,
+.btn:active {
   color: #98dafc;
   outline: none;
 }
@@ -76,7 +78,7 @@ input {
   list-style: none;
   margin: 10px;
   padding: 10px 0;
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
 
 #results li {
@@ -92,7 +94,7 @@ input {
 }
 
 #results li:hover {
-  border-left: .5em solid #98dafc;
+  border-left: 0.5em solid #98dafc;
 }
 
 .caption {
@@ -107,9 +109,9 @@ input {
 
 @media (max-width: 768px) {
   #head {
-    font-size: 3.0em;
-    margin-bottom: .7em;
-    padding-top: .7em;
+    font-size: 3em;
+    margin-bottom: 0.7em;
+    padding-top: 0.7em;
   }
   .results-box {
     background: #feffff;
