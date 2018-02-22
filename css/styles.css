@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   background: #feffff;
   display: flex;
@@ -102,6 +103,7 @@ body {
   text-decoration: none;
   margin-bottom: 8px;
 }
+
 #results li {
   display: block;
   background-color: #312c32;
@@ -132,18 +134,28 @@ body {
 }
 
 @media (min-width: 768px) {
+  .search-box {
+    margin: 0 auto;
+    width: 75%;
+  }
   #results a {
     width: 49%;
   }
 }
 
 @media (min-width: 1028px) {
+  .search-box {
+    width: 65%;
+  }
   #results a {
     width: 32%;
   }
 }
 
 @media (min-width: 1600px) {
+  .search-box {
+    width: 55%;
+  }
   #results a {
     width: 24%;
   }
