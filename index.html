@@ -6,52 +6,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
+  <div class="wrap">
+    <div class="search-box">
+      <h1 class="title">Wikipedia Viewer</h1>
+      <input id="search" class="search-input" autofocus placeholder="Search Wikipedia">
+      <div class="buttons">
+        <button class="button" id="submit">Search
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
 
-  <div class="search-box">
-
-    <div class="container">
-
-      <h1 class="text-center" id="head">Wikipedia Viewer</h1>
-      <div class="text-center row">
-        <div class="col-12">
-          <input id="search" class="search-input" autofocus placeholder="Search Wikipedia">
-        </div>
+        <button class="button" id="random">Random
+          <i class="fa fa-random" aria-hidden="true"></i>
+        </button>
       </div>
-      <div class="text-center button-box row">
-        <div class="col-6">
-          <button class="btn btn-default btn-block" id="btn-submit">Search
-            <i class="fa fa-search" aria-hidden="true"></i>
-          </button>
-        </div>
-        <div class="col-6">
-          <button class="btn btn-default btn-block" id="btn-random">Random
-            <i class="fa fa-random" aria-hidden="true"></i>
-          </button>
-        </div>
-
-      </div>
-
-
     </div>
 
-  </div>
-
-  <div class="results-box container">
-    <div class="row">
-      <div class="col-12">
-        <ul id="results">
-        </ul>
-      </div>
-
+    <div class="results-box">
+      <ul id="results">
+      </ul>
     </div>
   </div>
-
 
   <script src="https://use.fontawesome.com/568e21573d.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
